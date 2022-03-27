@@ -107,7 +107,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
   Functions.clickOnVideos_tile();
 		attachScreen();
                   Thread.sleep(80000);	
-		CharlesFunctions.archive_folder("charles");
+                  CharlesFunctions.archive_folder("Charles");
 		this.proxy.getXml();
 		CharlesFunctions.createXMLFileForCharlesSessionFile();
 	}
@@ -357,7 +357,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 			System.out.println("****** Criteo SDK config/app call validation Started");
 			logStep("****** Criteo SDK config/app call validation Started");
 			Utils.verifyCriteo_config_app_Call("Smoke", "Criteo", false);
-			CharlesFunctions.archive_folder("charles");
+			CharlesFunctions.archive_folder("Charles");
 
 		}
 
