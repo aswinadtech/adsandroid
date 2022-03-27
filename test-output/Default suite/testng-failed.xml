@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="twc.Automation.ExecutableTestCases.GDPR_Run">
+        <methods>
+          <include name="Verify_WFXTriggers_Call_privacy_for_GDPR"/>
+          <include name="Smoke_Test_CaseVerify_Video_adCall_GDPR"/>
+          <include name="Verify_amazon_aax_map_details_adcall_for_GDPR"/>
+          <include name="preConditionsTest_for_GDPR"/>
+          <include name="Verify_amazon_aax_feed3_adcall_for_GDPR"/>
+          <include name="Verify_Criteo_SDK_config_app_Call_for_GDPR"/>
+          <include name="Verify_Lotame_Call_for_GDPR"/>
+          <include name="Verify_Amazon_Call"/>
+          <include name="Verify_amazon_aax_Hourly2_details_adcall_for_GDPR"/>
+          <include name="Verify_amazon_aax_Hourly_details_adcall_for_GDPR"/>
+          <include name="Verify_amazon_aax_feed1_adcall_for_GDPR"/>
+          <include name="beforeClass"/>
+          <include name="Verify_Criteo_SDK_inapp_v2_Call_for_GDPR"/>
+          <include name="Verify_LocationWFXTriggers_Call__for_GDPR"/>
+          <include name="Verify_amazon_aax_PreRollVideo_adcall_for_GDPR"/>
+          <include name="afterClass"/>
+          <include name="Smoke_Test_CaseVerify_Homescreen_marquee_adCall_GDPR"/>
+          <include name="validate_NextGen_IM_call_npa_val_for_GDPR"/>
+          <include name="Verify_amazon_aax_Daily_details_adcall_for_GDPR"/>
+          <include name="Verify_amazon_aax_Hourly3_details_adcall_for_GDPR"/>
+          <include name="Verify_amazon_aax_feed2_adcall_for_GDPR"/>
+          <include name="validate_Video_call_npa_val_for_GDPR"/>
+          <include name="Verify_amazon_aax_Hourly1_details_adcall_for_GDPR"/>
+        </methods>
+      </class> <!-- twc.Automation.ExecutableTestCases.GDPR_Run -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
