@@ -1804,7 +1804,7 @@ Thread.sleep(100000);
 		System.out.println(
 				"================= verifying iu value for home screen marquee test case started =========================");	
 	
-		Utils.verifyPubadCal("Smoke", "Marquee");
+		//Utils.verifyPubadCal("Smoke", "Marquee");
 
 		System.out.println(
 				"================= verifying iu value for home screen marquee test case End =========================");
@@ -1818,7 +1818,7 @@ Thread.sleep(100000);
 
 		System.out.println("****** Verify NextGen IM Adcall sod value when privacy optin");
 		logStep("Verify NextGen IM Adcall sod value when privacy optin");
-		Utils.validate_custom_param_val_of_gampad("Smoke", "Marquee", "sod", "yes");
+		//Utils.validate_custom_param_val_of_gampad("Smoke", "Marquee", "sod", "yes");
 
 	}
 
@@ -1831,7 +1831,7 @@ Thread.sleep(100000);
 
 		System.out.println("****** Verify maps details Call sod value when privacy optin");
 		logStep("Verify maps details Call sod value when privacy optin");
-		Utils.validate_custom_param_val_of_gampad("Smoke", "Map", "sod", "yes");
+		//Utils.validate_custom_param_val_of_gampad("Smoke", "Map", "sod", "yes");
 
 	}
 
@@ -1961,7 +1961,7 @@ Thread.sleep(100000);
 		System.out.println("==============================================");
 		System.out.println("****** location.wfxtriggers.com Call test case Started when privacy optin");
 		logStep("location.wfxtriggers.com Call test case Started when privacy optin");
-		Utils.verifyAPICal("Smoke", "LocationWFX", false);
+		//Utils.verifyAPICal("Smoke", "LocationWFX", false);
 
 	}
 	
@@ -1974,7 +1974,7 @@ Thread.sleep(100000);
 		System.out.println("==============================================");
 		System.out.println("****** triggers.wfxtriggers.com Call test case Started when privacy optin");
 		logStep("****** triggers.wfxtriggers.com Call test case Started when privacy optin");
-		Utils.verifyAPICal("Smoke", "WFXTrigger", true);
+		//Utils.verifyAPICal("Smoke", "WFXTrigger", true);
 
 	}
 
@@ -2011,7 +2011,7 @@ Thread.sleep(100000);
 		System.out.println("==============================================");
 		System.out.println("****** Deriving VideoCall For USA when privacy optin");
 		logStep("****** Deriving VideoCall For USA when privacy optin");
-		Utils.verifyPubadCal("Smoke", "PreRollVideo");
+		//Utils.verifyPubadCal("Smoke", "PreRollVideo");
 	}
 
 	@Test(priority = 1940, enabled = true)
@@ -2021,7 +2021,7 @@ Thread.sleep(100000);
 
 		System.out.println("****** Prerol-video Call sod value when privacy optin");
 		logStep("Verify Prerol-video Call sod value when privacy optin");
-		Utils.validate_custom_param_val_of_gampad("Smoke", "PreRollVideo", "sod", "yes");
+		//Utils.validate_custom_param_val_of_gampad("Smoke", "PreRollVideo", "sod", "yes");
 
 	}
 
