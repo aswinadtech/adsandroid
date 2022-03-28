@@ -2094,7 +2094,8 @@ public class Utils extends Functions {
 		String[][] data = read_excel_data.exceldataread(sheetName);
 
 		// Read the content form file
-		File fXmlFile = new File(outfile.getName());
+			// Read the content form file
+		File fXmlFile = new File(CharlesFunctions.outfile.getName());
 
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		dbFactory.setValidating(false);
@@ -2121,7 +2122,7 @@ public class Utils extends Functions {
 		if (sheetName.equalsIgnoreCase("PreRollVideo")) {
 			iuId = videoIUValue;
 		} else {
-			iuId = data[18][1];
+			iuId = data[11][1];
 		}
 		boolean rdpExists = false;
 		boolean iuExists = false;
