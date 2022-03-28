@@ -1978,16 +1978,7 @@ Thread.sleep(100000);
 
 	}
 
-	@Test(priority = 1932, enabled = true)
-	@Description("Validating NextGen IM Call rdp value when privacy optin")
-	public void validate_NextGen_IM_call_rdp_val_privacy_optin_for_USA() throws Exception {
-		System.out.println("==============================================");
-		System.out.println("****** Validating NextGenIM Call rdp value when privacy optin");
-		logStep("Validating NextGenIM Call rdp value when privacy optin ");
-
-		Utils.validate_rdp_val_in_gampad_url("Smoke", "Marquee", false);
-
-	}
+	
 
 	@Test(priority = 1934, enabled = true)
 	@Description("Verify Criteo SDK inapp v2 call when privacy optin")
@@ -2041,7 +2032,7 @@ Thread.sleep(100000);
 		System.out.println("****** Validating PrerollVideo Call rdp value when privacy optin");
 		logStep("Validating PrerollVideo Call rdp value when privacy optin ");
 
-		Utils.validate_rdp_val_in_gampad_url("Smoke", "PrerollVideo", false);
+		//Utils.validate_rdp_val_in_gampad_url("Smoke", "PrerollVideo", false);
 
 	}
 	
@@ -2053,7 +2044,7 @@ Thread.sleep(100000);
 		System.out.println("****** Validating marquee Call rdp value when privacy optin");
 		logStep("Validating marquee Call rdp value when privacy optin ");
 
-		Utils.validate_rdp_val_in_gampad_url("Smoke", "Marquee", false);
+		//Utils.validate_rdp_val_in_gampad_url("Smoke", "Marquee", false);
 
 	}
 	
@@ -2064,7 +2055,7 @@ Thread.sleep(100000);
 		System.out.println("****** Validating maps details Call rdp value when privacy optin");
 		logStep("Validating maps details Call rdp value when privacy optin ");
 
-		Utils.validate_rdp_val_in_gampad_url("Smoke", "Map", false);
+		//Utils.validate_rdp_val_in_gampad_url("Smoke", "Map", false);
 		 CharlesFunctions.archive_folder("Charles");
 
 	}
