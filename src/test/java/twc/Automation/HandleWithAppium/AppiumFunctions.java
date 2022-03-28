@@ -36,7 +36,7 @@ import org.testng.Assert;
 
 import twc.Automation.Driver.Drivers;
 
-import twc.Automation.ExecutableTestCases.smokeTestCases;
+
 import twc.Automation.ReadDataFromFile.read_excel_data;
 import twc.android.app.pages.FTLScreens;
 import twc.Automation.General.DeviceStatus;
@@ -2109,7 +2109,7 @@ public static void getIpaddress() {
 }
 
 
-public static void settingProxyEnable(String type,String ipAddress,String portNumber) throws Exception{
+/*public static void settingProxyEnable(String type,String ipAddress,String portNumber) throws Exception{
 		//clicking connection option on settings app
 	clickRequiredEleemntononSettingsapp("Connections");	
 	Thread.sleep(8000);
@@ -2145,7 +2145,7 @@ public static void settingProxyEnable(String type,String ipAddress,String portNu
 	enterIpAddressPortNumber(current_IPAddress, defaultPortNumber); 
 	Ad.findElementById("android:id/button1").click();
 	Thread.sleep(8000);
-	}
+	}*/
 
 public static void clickRequiredEleemntononSettingsapp(String name) throws Exception {
 	List<WebElement> searchelements=Ad.findElementsById("android:id/title");
