@@ -145,7 +145,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 		  AppFunctions.Kill_Launch_App();  
 		   AppFunctions.click_radar_element();
 		   Thread.sleep(10000);	
-			AppFunctions.click_video_element();
+			Functions.clickOnVideos_tile();
 			    Thread.sleep(80000);		
 			 CharlesFunctions.archive_folder("Charles");
 			this.proxy.getXml();
