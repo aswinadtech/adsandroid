@@ -1976,16 +1976,7 @@ Thread.sleep(100000);
 
 	}
 
-	@Test(priority = 1532, enabled = true)
-	@Description("Validating NextGen IM Call rdp value when privacy optin")
-	public void validate_NextGen_IM_call_rdp_val_privacy_optin_for_USACCPA() throws Exception {
-		System.out.println("==============================================");
-		System.out.println("****** Validating NextGenIM Call rdp value when privacy optin");
-		logStep("Validating NextGenIM Call rdp value when privacy optin ");
 
-		//Utils.validate_rdp_val_in_gampad_url("Smoke", "Marquee", false);
-
-	}
 
 	@Test(priority = 1534, enabled = true)
 	@Description("Verify Criteo SDK inapp v2 call when privacy optin")
