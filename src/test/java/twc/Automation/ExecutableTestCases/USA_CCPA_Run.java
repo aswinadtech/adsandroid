@@ -1983,7 +1983,7 @@ Thread.sleep(100000);
 		System.out.println("****** Validating NextGenIM Call rdp value when privacy optin");
 		logStep("Validating NextGenIM Call rdp value when privacy optin ");
 
-		Utils.validate_rdp_val_in_gampad_url("Smoke", "Marquee", false);
+		//Utils.validate_rdp_val_in_gampad_url("Smoke", "Marquee", false);
 
 	}
 
@@ -2039,7 +2039,7 @@ Thread.sleep(100000);
 		System.out.println("****** Validating PrerollVideo Call rdp value when privacy optin");
 		logStep("Validating PrerollVideo Call rdp value when privacy optin ");
 
-		Utils.validate_rdp_val_in_gampad_url("Smoke", "PrerollVideo", false);
+		//Utils.validate_rdp_val_in_gampad_url("Smoke", "PrerollVideo", false);
 
 	}
 	
@@ -2051,7 +2051,7 @@ Thread.sleep(100000);
 		System.out.println("****** Validating marquee Call rdp value when privacy optin");
 		logStep("Validating marquee Call rdp value when privacy optin ");
 
-		Utils.validate_rdp_val_in_gampad_url("Smoke", "Marquee", false);
+		//Utils.validate_rdp_val_in_gampad_url("Smoke", "Marquee", false);
 
 	}
 	
@@ -2062,7 +2062,7 @@ Thread.sleep(100000);
 		System.out.println("****** Validating maps details Call rdp value when privacy optin");
 		logStep("Validating maps details Call rdp value when privacy optin ");
 
-		Utils.validate_rdp_val_in_gampad_url("Smoke", "Map", false);
+		//Utils.validate_rdp_val_in_gampad_url("Smoke", "Map", false);
 		 CharlesFunctions.archive_folder("Charles");
 
 	}
