@@ -1788,10 +1788,11 @@ Thread.sleep(100000);
 	   Thread.sleep(40000); 		  
 	   AppFunctions.click_radar_element();	
        Functions.clickOnVideos_tile();
-		 CharlesFunctions.archive_folder("Charles");
+	   Thread.sleep(80000);
+		// CharlesFunctions.archive_folder("Charles");
 		this.proxy.getXml();		
 	    Thread.sleep(80000);		
-		Utils.createXMLFileForCharlesSessionFile();
+	CharlesFunctions.createXMLFileForCharlesSessionFile();
 		//Utils.verifyAPICal("Smoke", "Lotame", true);
   System.out.println("================= Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
   
