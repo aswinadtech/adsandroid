@@ -200,7 +200,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 
 				System.out.println("****** amazon aax feed1 preload ad call validation Started when privacy optout");
 				logStep("****** amazon aax feed1 preload ad call validation Started when privacy optout");
-				//Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
 
 			}
 
@@ -213,7 +213,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 
 				System.out.println("****** amazon aax feed2 preload ad call validation Started when privacy optout");
 				logStep("****** amazon aax feed2 preload ad call validation Started when privacy optout");
-				//Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
 
 			}
 
@@ -226,7 +226,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 
 				System.out.println("****** amazon aax feed3 preload ad call validation Started when privacy optout");
 				logStep("****** amazon aax feed3 preload ad call validation Started when privacy optout");				
-				//Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
 
 			}
 
@@ -242,7 +242,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 				System.out.println("****** amazon aax PreRollVideo preload ad call validation Started when privacy optout");
 				logStep("****** amazon aax PreRollVideo preload ad call validation Started when privacy optout");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
+				////Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
 
 			}
 
@@ -256,7 +256,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 				System.out.println("****** amazon aax Map details preload ad call validation Started when privacy optout");
 				logStep("****** amazon aax Map details preload ad call validation Started when privacy optout");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "Map", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Map", false);
 
 			}
 
@@ -270,7 +270,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 				System.out.println("****** amazon aax Daily Details ad call validation Started when privacy optout");
 				logStep("****** amazon aax Daily Details ad call validation Started when privacy optout");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
 
 			}
 
@@ -283,7 +283,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 
 				System.out.println("****** amazon aax Hourly Details ad call validation Started when privacy optout");
 				logStep("****** amazon aax Hourly Details ad call validation Started when privacy optout");
-				//Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
 			}
 
@@ -507,7 +507,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed1 preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				logStep("****** amazon aax feed1 preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
 
 			}
 
@@ -522,7 +522,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed2 preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				logStep("****** amazon aax feed2 preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
 
 			}
 
@@ -537,7 +537,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed3 preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				logStep("****** amazon aax feed3 preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
 
 			}
 
@@ -553,7 +553,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax PreRollVideo preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				logStep("****** amazon aax PreRollVideo preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
+				////Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
 
 			}
 
@@ -568,7 +568,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Map details preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				logStep("****** amazon aax Map details preload ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "Map", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Map", false);
 
 			}
 
@@ -583,7 +583,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Daily Details ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				logStep("****** amazon aax Daily Details ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
 
 			}
 
@@ -598,7 +598,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Hourly Details ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 				logStep("****** amazon aax Hourly Details ad call validation Started when privacy optout for USACCPA To LGPD Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
 			}
 
@@ -838,7 +838,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed1 preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				logStep("****** amazon aax feed1 preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
 
 			}
 
@@ -853,7 +853,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed2 preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				logStep("****** amazon aax feed2 preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
 
 			}
 
@@ -868,7 +868,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed3 preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				logStep("****** amazon aax feed3 preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
 
 			}
 
@@ -884,7 +884,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax PreRollVideo preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				logStep("****** amazon aax PreRollVideo preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
+				////Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
 
 			}
 
@@ -899,7 +899,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Map details preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				logStep("****** amazon aax Map details preload ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "Map", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Map", false);
 
 			}
 
@@ -914,7 +914,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Daily Details ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				logStep("****** amazon aax Daily Details ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
 
 			}
 
@@ -929,7 +929,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Hourly Details ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 				logStep("****** amazon aax Hourly Details ad call validation Started when privacy optout for USACCPA To GDPR Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
 			}
 
@@ -1167,7 +1167,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed1 preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				logStep("****** amazon aax feed1 preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
 
 			}
 
@@ -1182,7 +1182,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed2 preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				logStep("****** amazon aax feed2 preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
 
 			}
 
@@ -1197,7 +1197,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed3 preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				logStep("****** amazon aax feed3 preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
 
 			}
 
@@ -1213,7 +1213,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax PreRollVideo preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				logStep("****** amazon aax PreRollVideo preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
+				////Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
 
 			}
 
@@ -1228,7 +1228,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Map details preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				logStep("****** amazon aax Map details preload ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "Map", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Map", false);
 
 			}
 
@@ -1243,7 +1243,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Daily Details ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				logStep("****** amazon aax Daily Details ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
 
 			}
 
@@ -1258,7 +1258,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Hourly Details ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 				logStep("****** amazon aax Hourly Details ad call validation Started when privacy optout for USACCPA To SERBIA Travel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
 			}
 
@@ -1497,7 +1497,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed1 preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				logStep("****** amazon aax feed1 preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
 
 			}
 
@@ -1512,7 +1512,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed2 preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				logStep("****** amazon aax feed2 preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
 
 			}
 
@@ -1527,7 +1527,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax feed3 preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				logStep("****** amazon aax feed3 preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
 
 			}
 
@@ -1543,7 +1543,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax PreRollVideo preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				logStep("****** amazon aax PreRollVideo preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
+				////Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
 
 			}
 
@@ -1558,7 +1558,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Map details preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				logStep("****** amazon aax Map details preload ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				
-				//Utils.verifyAAX_SlotId("Smoke", "Map", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Map", false);
 
 			}
 
@@ -1573,7 +1573,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Daily Details ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				logStep("****** amazon aax Daily Details ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
 
 			}
 
@@ -1588,7 +1588,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 						"****** amazon aax Hourly Details ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 				logStep("****** amazon aax Hourly Details ad call validation Started when privacy optout for USACCPA To LATAMCOTravel Scenario");
 
-				//Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
+				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
 			}
 
@@ -1846,7 +1846,7 @@ Thread.sleep(100000);
 		System.out.println("****** amazon aax feed1 preload ad call validation Started when privacy optin");
 		logStep("****** amazon aax feed1 preload ad call validation Started when privacy optin");
 
-		//Utils.verifyAAX_SlotId("Smoke", "Feed1", true);
+		////Utils.verifyAAX_SlotId("Smoke", "Feed1", true);
 
 	}
 
@@ -1860,7 +1860,7 @@ Thread.sleep(100000);
 		System.out.println("****** amazon aax feed2 preload ad call validation Started when privacy optin");
 		logStep("****** amazon aax feed2 preload ad call validation Started when privacy optin");
 
-		//Utils.verifyAAX_SlotId("Smoke", "Feed2", true);
+		////Utils.verifyAAX_SlotId("Smoke", "Feed2", true);
 
 	}
 
@@ -1874,7 +1874,7 @@ Thread.sleep(100000);
 		System.out.println("****** amazon aax feed3 preload ad call validation Started when privacy optin");
 		logStep("****** amazon aax feed3 preload ad call validation Started when privacy optin");
 		
-		//Utils.verifyAAX_SlotId("Smoke", "Feed3", true);
+		////Utils.verifyAAX_SlotId("Smoke", "Feed3", true);
 
 	}
 
@@ -1890,7 +1890,7 @@ Thread.sleep(100000);
 		System.out.println("****** amazon aax PreRollVideo preload ad call validation Started when privacy optin");
 		logStep("****** amazon aax PreRollVideo preload ad call validation Started when privacy optin");
 		
-		//Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", true);
+		////Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", true);
 
 	}
 
@@ -1904,7 +1904,7 @@ Thread.sleep(100000);
 		System.out.println("****** amazon aax Map details preload ad call validation Started when privacy optin");
 		logStep("****** amazon aax Map details preload ad call validation Started when privacy optin");
 		
-		//Utils.verifyAAX_SlotId("Smoke", "Map", true);
+		////Utils.verifyAAX_SlotId("Smoke", "Map", true);
 
 	}
 
@@ -1918,7 +1918,7 @@ Thread.sleep(100000);
 		System.out.println("****** amazon aax Daily Details ad call validation Started when privacy optin");
 		logStep("****** amazon aax Daily Details ad call validation Started when privacy optin");
 
-		//Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", true);
+		////Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", true);
 
 	}
 
@@ -1932,7 +1932,7 @@ Thread.sleep(100000);
 		System.out.println("****** amazon aax Hourly Details ad call validation Started when privacy optin");
 		logStep("****** amazon aax Hourly Details ad call validation Started when privacy optin");
 
-		//Utils.verifyAAX_SlotId("Smoke", "Hourly", true);
+		////Utils.verifyAAX_SlotId("Smoke", "Hourly", true);
 
 	}
 
