@@ -186,7 +186,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 
 		System.out.println("****** amazon aax feed1 preload ad call validation Started");
 		logStep("****** amazon aax feed1 preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
+		//Utils.verifyAAX_SlotId("Smoke", "Feed1", false);
 
 	}
 
@@ -198,7 +198,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 
 		System.out.println("****** amazon aax feed2 preload ad call validation Started");
 		logStep("****** amazon aax feed2 preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
+		//Utils.verifyAAX_SlotId("Smoke", "Feed2", false);
 
 	}
 	 
@@ -211,7 +211,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 
 		System.out.println("****** amazon aax feed3 preload ad call validation Started");
 		logStep("****** amazon aax feed3 preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
+		//Utils.verifyAAX_SlotId("Smoke", "Feed3", false);
 
 	}
 	
@@ -223,7 +223,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 
 		System.out.println("****** amazon aax PreRollVideo preload ad call validation Started");
 		logStep("****** amazon aax PreRollVideo preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
+		//Utils.verifyAAX_SlotId("Smoke", "PreRollVideo", false);
 
 	}
 
@@ -235,7 +235,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 
 		System.out.println("****** amazon aax Map details preload ad call validation Started");
 		logStep("****** amazon aax Map details preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "Map", false);
+		//Utils.verifyAAX_SlotId("Smoke", "Map", false);
 
 	}
 
@@ -247,7 +247,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 
 		System.out.println("****** amazon aax Daily Details preload ad call validation Started");
 		logStep("****** amazon aax Daily Details preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
+		//Utils.verifyAAX_SlotId("Smoke", "Daily(10day)", false);
 
 	}
 
@@ -260,7 +260,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 
 		System.out.println("****** amazon aax Hourly Details preload ad call validation Started");
 		logStep("****** amazon aax Hourly Details preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
+		//Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 	}
 	
 	@Test(priority = 6024, enabled = true)
@@ -271,7 +271,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 				.println("=========================== amazon aax Hourly1 Details preload ad call ====================");
 		System.out.println("****** amazon aax Hourly1 Details preload ad call validation Started");
 		logStep("****** amazon aax Hourly1 Details preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "Hourly1", false);
+		//Utils.verifyAAX_SlotId("Smoke", "Hourly1", false);
 	}
 	
 	@Test(priority = 6026, enabled = true)
@@ -282,7 +282,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 				.println("=========================== amazon aax Hourly2 Details preload ad call ====================");
 		System.out.println("****** amazon aax Hourly2 Details preload ad call validation Started");
 		logStep("****** amazon aax Hourly2 Details preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "Hourly2", false);
+		//Utils.verifyAAX_SlotId("Smoke", "Hourly2", false);
 	}
 	
 	@Test(priority = 6028, enabled = true)
@@ -293,7 +293,7 @@ public class EXEMPT_Run  extends  TwcAndroidBaseTest {
 				.println("=========================== amazon aax Hourly2 Details preload ad call ====================");
 		System.out.println("****** amazon aax Hourly2 Details preload ad call validation Started");
 		logStep("****** amazon aax Hourly3 Details preload ad call validation Started");
-		Utils.verifyAAX_SlotId("Smoke", "Hourly3", false);
+		//Utils.verifyAAX_SlotId("Smoke", "Hourly3", false);
 	}
 	
 
