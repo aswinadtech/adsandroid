@@ -355,9 +355,6 @@ public class LATAM_CO_Run extends  TwcAndroidBaseTest {
 			logStep("****** Criteo SDK config/app call validation Started");
 			Utils.verifyCriteo_config_app_Call("Smoke", "Criteo", false);
 			CharlesFunctions.archive_folder("Charles");
-			Thread.sleep(30 *   // minutes to sleep
-		             60 *   // seconds to a minute
-		             1000);
 
 		}
 
