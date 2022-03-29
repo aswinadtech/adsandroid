@@ -1786,6 +1786,7 @@ Thread.sleep(100000);
 	   Thread.sleep(40000); 		  
 	   AppFunctions.click_radar_element();	
        Functions.clickOnVideos_tile();
+	  Thread.sleep(80000);
 	  CharlesFunctions.archive_folder("Charles");
 		this.proxy.getXml();		
 	    Thread.sleep(80000);		
