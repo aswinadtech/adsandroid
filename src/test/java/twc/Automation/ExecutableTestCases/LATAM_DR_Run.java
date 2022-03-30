@@ -59,8 +59,8 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
-		System.out.println("****** LATAM PE Privacy Test Started");
-		logStep("****** LATAM PE  Privacy Test Started");
+		System.out.println("****** LATAM DR Privacy Test Started");
+		logStep("****** LATAM DR  Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableLATAMDR(CONFIG_FILE_PATH);
 		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
@@ -79,8 +79,8 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		this.proxy.disableRewriting();
 		//this.proxy.quitCharlesProxy();
 		
-		System.out.println("****** LATAM PE   Privacy Test Ended");
-		logStep("****** LATAM PE  Privacy Test Ended");
+		System.out.println("****** LATAM DR   Privacy Test Ended");
+		logStep("****** LATAM DR  Privacy Test Ended");
 	}
 	
 	@Test(priority = 4000)
