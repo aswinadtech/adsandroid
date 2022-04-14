@@ -5,6 +5,9 @@
     <classes>
  <class name="twc.Automation.ExecutableTestCases.GDPR_Run"/>
          <class name="twc.Automation.ExecutableTestCases.LGPD_Run"/>
+      <class name="twc.Automation.ExecutableTestCases.CHINAPrivacyTest"/>
+         <class name="twc.Automation.ExecutableTestCases.RUSSIAPrivacyTest"/>
+      <class name="twc.Automation.ExecutableTestCases.BELARUSPrivacyTest"/>
  <class name="twc.Automation.ExecutableTestCases.USA_CCPA_Run"/>
 <class name="twc.Automation.ExecutableTestCases.USA_Run"/>
           <class name="twc.Automation.ExecutableTestCases.LATAM_CO_Run"/>
