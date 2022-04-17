@@ -353,7 +353,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 						   AppFunctions.click_hourly_element();
 						   attachScreen();
 						   Thread.sleep(10000);
-						AppiumFunctions. swipe_in_hourlydetailspage();
+						AppiumFunctions.swipe_in_hourlydetailspage();
 							this.proxy.getXml();
 						CharlesFunctions.createXMLFileForCharlesSessionFile();
 						CharlesFunctions.archive_folder("Charles");
