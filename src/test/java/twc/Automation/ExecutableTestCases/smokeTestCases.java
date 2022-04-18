@@ -120,7 +120,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 		
 		System.out.println("****** Homescreen Adhesive Adcall verification Started");
 		logStep("****** Homescreen Adhesive Adcall verification Started");
-		Utils.verifyPubadCal("Smoke", "pullrefresh");
+		//Utils.verifyPubadCal("Smoke", "pullrefresh");
 	}
 	  
 	  
