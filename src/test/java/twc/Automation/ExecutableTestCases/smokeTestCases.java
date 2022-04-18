@@ -101,7 +101,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	     Thread.sleep(90000);
 			Thread.sleep(90000);
 			Thread.sleep(90000);
-			AppiumFunctions.enter_requiredLocation("New York City");	
+			//AppiumFunctions.enter_requiredLocation("New York City");	
 		//AppiumFunctions.SwipeUp_Counter_feedcards(35);
 		this.proxy.getXml();
 		CharlesFunctions.createXMLFileForCharlesSessionFile();
