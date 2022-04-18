@@ -2919,7 +2919,7 @@ if(i==swipeup) {
 		Thread.sleep(8000);
 		}
 	
-		public static void swipe_in_hourlydetailspage() throws Exception{
+		/*public static void swipe_in_hourlydetailspage() throws Exception{
 		
 	AppFunctions.Swipe();
 	AppFunctions.Swipe();
@@ -2933,7 +2933,7 @@ if(i==swipeup) {
 	AppFunctions.Swipe();
 	Thread.sleep(10000);
 	Thread.sleep(10000);
-}
+}*/
 	
 	
 	
