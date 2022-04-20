@@ -630,7 +630,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 	
 	@Test(priority = 1677, enabled = true)
 	@Description("WFXTrigger Call verification")
-	public void Verify_WFXTriggers_Call_presence() throws Exception {
+	public void Verify_WFXTriggers_Call_privacy_optout_for_USA_To_LGPD_Travel_Scenario() throws Exception {
 		System.out.println("==============================================");
 		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
 		logStep("****** triggers.wfxtriggers.com Call test case Started");
@@ -971,7 +971,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 	
 	@Test(priority = 1727, enabled = true)
 	@Description("WFXTrigger Call verification")
-	public void Verify_WFXTriggers_Call_presence() throws Exception {
+	public void Verify_WFXTriggers_Call_privacy_optout_for_USA_To_GDPR_Travel_Scenario() throws Exception {
 		System.out.println("==============================================");
 		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
 		logStep("****** triggers.wfxtriggers.com Call test case Started");
@@ -1309,7 +1309,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 			}
 	@Test(priority = 1775, enabled = true)
 	@Description("WFXTrigger Call verification")
-	public void Verify_WFXTriggers_Call_presence() throws Exception {
+	public void Verify_WFXTriggers_Call_privacy_optout_for_USA_To_SERBIA_Travel_Scenario() throws Exception {
 		System.out.println("==============================================");
 		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
 		logStep("****** triggers.wfxtriggers.com Call test case Started");
@@ -1648,7 +1648,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 			}
 	@Test(priority = 1821, enabled = true)
 	@Description("WFXTrigger Call verification")
-	public void Verify_WFXTriggers_Call_presence() throws Exception {
+	public void Verify_WFXTriggers_Call_privacy_optout_for_USA_To_LATAMCO_Travel_Scenario()throws Exception {
 		System.out.println("==============================================");
 		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
 		logStep("****** triggers.wfxtriggers.com Call test case Started");
