@@ -193,7 +193,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 
 		
 
-			@Test(priority = 1614, enabled = true)
+			/*@Test(priority = 1614, enabled = true)
 			@Description("Verify amazon aax Feed1 preload ad call when privacy optout")
 			public void Verify_amazon_aax_feed1_adcall_privacy_optout_for_USA() throws Exception {
 				System.out.println("==============================================");
@@ -287,7 +287,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 				logStep("****** amazon aax Hourly Details ad call validation Started when privacy optout");
 				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
-			}
+			}*/
 
 			// Lotame Test case
 			@Test(priority = 1628, enabled = true)
@@ -498,7 +498,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 
 	
 
-			@Test(priority = 1660, enabled = true)
+			/*@Test(priority = 1660, enabled = true)
 			@Description("Verify amazon aax Feed1 preload ad call when privacy optout for USA To LGPD Travel Scenario")
 			public void Verify_amazon_aax_feed1_adcall_privacy_optout_for_USA_To_LGPD_Travel_Scenario() throws Exception {
 				System.out.println("==============================================");
@@ -602,7 +602,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 
 				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
-			}
+			}*/
 
 			// Lotame Test case
 			@Test(priority = 1674, enabled = true)
@@ -829,7 +829,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 
 		
 
-			@Test(priority = 1710, enabled = true)
+			/*@Test(priority = 1710, enabled = true)
 			@Description("Verify amazon aax Feed1 preload ad call when privacy optout for USA To GDPR Travel Scenario")
 			public void Verify_amazon_aax_feed1_adcall_privacy_optout_for_USA_To_GDPR_Travel_Scenario() throws Exception {
 				System.out.println("==============================================");
@@ -933,7 +933,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 
 				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
-			}
+			}*/
 
 			// Lotame Test case
 			@Test(priority = 1724, enabled = true)
@@ -1158,7 +1158,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 
 			
 
-			@Test(priority = 1758, enabled = true)
+			/*@Test(priority = 1758, enabled = true)
 			@Description("Verify amazon aax Feed1 preload ad call when privacy optout for USA To SERBIA Travel Scenario")
 			public void Verify_amazon_aax_feed1_adcall_privacy_optout_for_USA_To_SERBIA_Travel_Scenario() throws Exception {
 				System.out.println("==============================================");
@@ -1262,7 +1262,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 
 				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
-			}
+			}*/
 
 			// Lotame Test case
 			@Test(priority = 1772, enabled = true)
@@ -1488,7 +1488,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 
 	
 
-			@Test(priority = 1804, enabled = true)
+			/*@Test(priority = 1804, enabled = true)
 			@Description("Verify amazon aax Feed1 preload ad call when privacy optout for USA To LATAMCOTravel Scenario")
 			public void Verify_amazon_aax_feed1_adcall_privacy_optout_for_USA_To_LATAMCO_Travel_Scenario() throws Exception {
 				System.out.println("==============================================");
@@ -1592,7 +1592,7 @@ public class USA_Run extends  TwcAndroidBaseTest {
 
 				////Utils.verifyAAX_SlotId("Smoke", "Hourly", false);
 
-			}
+			}*/
 
 			// Lotame Test case
 			@Test(priority = 1818, enabled = true)
