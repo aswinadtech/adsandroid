@@ -625,6 +625,15 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 				Utils.verifyAPICal("Smoke", "LocationWFX", false);
 
 			}
+	
+	@Test(priority = 1077, enabled = true)
+	@Description("WFXTrigger Call verification")
+	public void Verify_WFXTriggers_Call_presence() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
+		logStep("****** triggers.wfxtriggers.com Call test case Started");
+		Utils.verifyAPICal("Smoke", "WFXTrigger", true);
+	}
 
 			@Test(priority = 1078, enabled = true)
 			@Description("Validating NextGen IM Call rdp value when privacy optout for USACCPA To LGPD Travel Scenario")
@@ -956,6 +965,16 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 				Utils.verifyAPICal("Smoke", "LocationWFX", false);
 
 			}
+	
+	@Test(priority = 1129, enabled = true)
+	@Description("WFXTrigger Call verification")
+	public void Verify_WFXTriggers_Call_presence() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
+		logStep("****** triggers.wfxtriggers.com Call test case Started");
+		Utils.verifyAPICal("Smoke", "WFXTrigger", true);
+	}
+
 
 			@Test(priority = 1130, enabled = true)
 			@Description("Validating NextGen IM Call rdp value when privacy optout for USACCPA To GDPR Travel Scenario")
@@ -1286,7 +1305,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 
 			}
 
-			@Test(priority = 1078, enabled = true)
+			@Test(priority = 1229, enabled = true)
 			@Description("Validating NextGen IM Call rdp value when privacy optout for USACCPA To SERBIA Travel Scenario")
 			public void validate_NextGen_IM_call_rdp_val_privacy_optout_for_USACCPA_To_SERBIA_Travel_Scenario() throws Exception {
 				System.out.println("==============================================");
@@ -1320,6 +1339,15 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 				Utils.validate_npa_val_in_gampad_url("Smoke", "Marquee", true);
 
 			}
+	@Test(priority = 1233, enabled = true)
+	@Description("WFXTrigger Call verification")
+	public void Verify_WFXTriggers_Call_presence() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
+		logStep("****** triggers.wfxtriggers.com Call test case Started");
+		Utils.verifyAPICal("Smoke", "WFXTrigger", true);
+	}
+
 
 			@Test(priority = 1234, enabled = true)
 			@Description("Verify Criteo SDK inapp v2 call when privacy optout for USACCPA To SERBIA Travel Scenario")
@@ -1615,6 +1643,15 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 				Utils.verifyAPICal("Smoke", "LocationWFX", false);
 
 			}
+	@Test(priority = 1331, enabled = true)
+	@Description("WFXTrigger Call verification")
+	public void Verify_WFXTriggers_Call_presence() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
+		logStep("****** triggers.wfxtriggers.com Call test case Started");
+		Utils.verifyAPICal("Smoke", "WFXTrigger", true);
+	}
+
 
 			@Test(priority = 1332, enabled = true)
 			@Description("Validating NextGen IM Call rdp value when privacy optout for USACCPA To LATAMCOTravel Scenario")
