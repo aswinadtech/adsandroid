@@ -169,7 +169,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 
 	
 	
-	@Test(priority = 4010, enabled = true)
+	/*@Test(priority = 4010, enabled = true)
 	@Description("Verify amazon aax Feed1 preload ad call")
 	public void Verify_amazon_aax_feed1_adcall_for_LATAM_DR() throws Exception {
 		System.out.println("==============================================");
@@ -285,7 +285,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		System.out.println("****** amazon aax Hourly2 Details preload ad call validation Started");
 		logStep("****** amazon aax Hourly3 Details preload ad call validation Started");
 		//Utils.verifyAAX_SlotId("Smoke", "Hourly3", false);
-	}
+	}*/
 	
 	@Test(priority = 4030, enabled = true)
 	@Description("Validating NextGen IM Call npa value")
