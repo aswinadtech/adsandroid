@@ -191,7 +191,7 @@ public class GDPR_Run  extends  TwcAndroidBaseTest {
 
 	
 	
-	@Test(priority = 113, enabled = true)
+	/*@Test(priority = 113, enabled = true)
 	@Description("Verify amazon aax Feed1 preload ad call")
 	public void Verify_amazon_aax_feed1_adcall_for_GDPR() throws Exception {
 		System.out.println("==============================================");
@@ -353,7 +353,8 @@ public class GDPR_Run  extends  TwcAndroidBaseTest {
 
 		System.out.println(
 				"================= verifying iu value for home screen marquee test case End =========================");
-	}
+	}*/
+	
 	/*
 		 * This method validates Criteo Bidder API call for not present
 		 */
