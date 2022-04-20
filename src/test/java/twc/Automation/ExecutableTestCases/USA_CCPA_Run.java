@@ -968,7 +968,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 	
 	@Test(priority = 1129, enabled = true)
 	@Description("WFXTrigger Call verification")
-	public void Verify_WFXTriggers_Call_privacy_optout_for_USACCPA_To_LGPD_Travel_Scenario() throws Exception {
+	public void Verify_WFXTriggers_Call_privacy_optout_for_USACCPA_To_GDPR_Travel_Scenario() throws Exception {
 		System.out.println("==============================================");
 		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
 		logStep("****** triggers.wfxtriggers.com Call test case Started");
