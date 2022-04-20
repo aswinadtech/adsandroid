@@ -174,7 +174,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest {
 
 	
 	
-	@Test(priority = 7010, enabled = true)
+	/*@Test(priority = 7010, enabled = true)
 	@Description("Verify amazon aax Feed1 preload ad call")
 	public void Verify_amazon_aax_feed1_adcall_for_Serbia() throws Exception {
 		System.out.println("==============================================");
@@ -290,7 +290,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest {
 		System.out.println("****** amazon aax Hourly2 Details preload ad call validation Started");
 		logStep("****** amazon aax Hourly3 Details preload ad call validation Started");
 		//Utils.verifyAAX_SlotId("Smoke", "Hourly3", false);
-	}
+	}*/
 	
 	@Test(priority = 7028, enabled = true)
 	@Description("Validating NextGen IM Call npa value")
