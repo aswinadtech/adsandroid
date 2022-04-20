@@ -627,6 +627,16 @@ public class USA_Run extends  TwcAndroidBaseTest {
 				Utils.verifyAPICal("Smoke", "LocationWFX", false);
 
 			}
+	
+	@Test(priority = 1677, enabled = true)
+	@Description("WFXTrigger Call verification")
+	public void Verify_WFXTriggers_Call_presence() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
+		logStep("****** triggers.wfxtriggers.com Call test case Started");
+		Utils.verifyAPICal("Smoke", "WFXTrigger", true);
+	}
+
 
 			@Test(priority = 1678, enabled = true)
 			@Description("Validating NextGen IM Call rdp value when privacy optout for USA To LGPD Travel Scenario")
@@ -958,6 +968,16 @@ public class USA_Run extends  TwcAndroidBaseTest {
 				Utils.verifyAPICal("Smoke", "LocationWFX", false);
 
 			}
+	
+	@Test(priority = 1727, enabled = true)
+	@Description("WFXTrigger Call verification")
+	public void Verify_WFXTriggers_Call_presence() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
+		logStep("****** triggers.wfxtriggers.com Call test case Started");
+		Utils.verifyAPICal("Smoke", "WFXTrigger", true);
+	}
+
 
 			@Test(priority = 1728, enabled = true)
 			@Description("Validating NextGen IM Call rdp value when privacy optout for USA To GDPR Travel Scenario")
@@ -1287,6 +1307,15 @@ public class USA_Run extends  TwcAndroidBaseTest {
 				Utils.verifyAPICal("Smoke", "LocationWFX", false);
 
 			}
+	@Test(priority = 1775, enabled = true)
+	@Description("WFXTrigger Call verification")
+	public void Verify_WFXTriggers_Call_presence() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
+		logStep("****** triggers.wfxtriggers.com Call test case Started");
+		Utils.verifyAPICal("Smoke", "WFXTrigger", true);
+	}
+
 
 			@Test(priority = 1776, enabled = true)
 			@Description("Validating NextGen IM Call rdp value when privacy optout for USA To SERBIA Travel Scenario")
@@ -1617,6 +1646,15 @@ public class USA_Run extends  TwcAndroidBaseTest {
 				Utils.verifyAPICal("Smoke", "LocationWFX", false);
 
 			}
+	@Test(priority = 1821, enabled = true)
+	@Description("WFXTrigger Call verification")
+	public void Verify_WFXTriggers_Call_presence() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** triggers.wfxtriggers.com Call test case Started");
+		logStep("****** triggers.wfxtriggers.com Call test case Started");
+		Utils.verifyAPICal("Smoke", "WFXTrigger", true);
+	}
+
 
 			@Test(priority = 1822, enabled = true)
 			@Description("Validating NextGen IM Call rdp value when privacy optout for USA To LATAMCOTravel Scenario")
