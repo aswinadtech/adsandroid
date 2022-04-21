@@ -45,7 +45,7 @@ public class RUSSIAPrivacyTest extends TwcAndroidBaseTest{
 		logStep("****** Russia  Privacy Test Ended");
 	}
 	
-	@Test(priority = 50)
+	@Test(priority = 400)
 	public void preConditionsTest_for_Russia() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
@@ -74,7 +74,7 @@ public class RUSSIAPrivacyTest extends TwcAndroidBaseTest{
 	/*
 	 * This method validates Lotame call for not present
 	 */
-	@Test(priority = 400, enabled = true)
+	@Test(priority = 401, enabled = true)
 	@Description("Lotame Call verification")
 	public void Verify_Lotame_Call_for_RUSSIA() throws Exception {
 		System.out.println("==============================================");
