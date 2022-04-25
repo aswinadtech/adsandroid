@@ -795,7 +795,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 				    Thread.sleep(80000);	
 				       //Thread.sleep(80000)
 				   Thread.sleep(80000);	
-				       Thread.sleep(80000)
+				       Thread.sleep(80000);
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
@@ -1136,7 +1136,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 		           Functions.clickOnVideos_tile();
 					   Thread.sleep(80000);	
 				   Thread.sleep(80000);	
-				       Thread.sleep(80000)
+				       Thread.sleep(80000);
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
@@ -1477,7 +1477,7 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 		           Functions.clickOnVideos_tile();
 					   Thread.sleep(80000);	
 				   Thread.sleep(80000);	
-				       Thread.sleep(80000)
+				       Thread.sleep(80000);
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
