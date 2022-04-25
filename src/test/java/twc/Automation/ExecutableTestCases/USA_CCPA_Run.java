@@ -447,9 +447,11 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 					  AppFunctions.Kill_Launch_App();
 					   Thread.sleep(10000);
 					   AppFunctions.click_radar_element();
-					   Thread.sleep(5000);
+					   Thread.sleep(10000);
                    Functions.clickOnVideos_tile();
-					   Thread.sleep(80000);		
+					   Thread.sleep(80000);	
+				       Thread.sleep(80000);	
+				Thread.sleep(80000);
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
@@ -787,9 +789,13 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 					  AppFunctions.Kill_Launch_App();
 					   Thread.sleep(10000);
 					   AppFunctions.click_radar_element();
-					   Thread.sleep(5000);
+					   Thread.sleep(10000);
 		           Functions.clickOnVideos_tile();
-					   Thread.sleep(80000);		
+					   Thread.sleep(80000);	
+				    Thread.sleep(80000);	
+				       //Thread.sleep(80000)
+				   Thread.sleep(80000);	
+				       Thread.sleep(80000)
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
@@ -1128,7 +1134,9 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 					   AppFunctions.click_radar_element();
 					   Thread.sleep(5000);
 		           Functions.clickOnVideos_tile();
-					   Thread.sleep(80000);			
+					   Thread.sleep(80000);	
+				   Thread.sleep(80000);	
+				       Thread.sleep(80000)
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
@@ -1467,7 +1475,9 @@ public class USA_CCPA_Run extends  TwcAndroidBaseTest {
 					   AppFunctions.click_radar_element();
 					   Thread.sleep(5000);
 		           Functions.clickOnVideos_tile();
-					   Thread.sleep(80000);			
+					   Thread.sleep(80000);	
+				   Thread.sleep(80000);	
+				       Thread.sleep(80000)
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
