@@ -451,7 +451,9 @@ public class USA_Run extends  TwcAndroidBaseTest {
 					   AppFunctions.click_radar_element();
 					   Thread.sleep(5000);
                    Functions.clickOnVideos_tile();
-					   Thread.sleep(80000);		
+					   Thread.sleep(80000);	
+				Thread.sleep(80000);
+				Thread.sleep(80000);
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
@@ -792,7 +794,9 @@ public class USA_Run extends  TwcAndroidBaseTest {
 					   AppFunctions.click_radar_element();
 					   Thread.sleep(5000);
 		           Functions.clickOnVideos_tile();
-					   Thread.sleep(80000);		
+					   Thread.sleep(80000);	
+				Thread.sleep(80000);
+				Thread.sleep(80000);
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
@@ -1131,7 +1135,9 @@ public class USA_Run extends  TwcAndroidBaseTest {
 					   AppFunctions.click_radar_element();
 					   Thread.sleep(5000);
 		           Functions.clickOnVideos_tile();
-					   Thread.sleep(80000);			
+					   Thread.sleep(80000);	
+				Thread.sleep(80000);
+				Thread.sleep(80000);
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
@@ -1470,7 +1476,9 @@ public class USA_Run extends  TwcAndroidBaseTest {
 					   AppFunctions.click_radar_element();
 					   Thread.sleep(5000);
 		           Functions.clickOnVideos_tile();
-					   Thread.sleep(80000);			
+					   Thread.sleep(80000);	
+				Thread.sleep(80000);
+				Thread.sleep(80000);
 					   CharlesFunctions.archive_folder("Charles");
 					this.proxy.getXml();
 					CharlesFunctions.createXMLFileForCharlesSessionFile();
