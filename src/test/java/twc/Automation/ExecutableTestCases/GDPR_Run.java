@@ -307,7 +307,7 @@ public class GDPR_Run  extends  TwcAndroidBaseTest {
 		System.out.println("****** amazon aax Hourly2 Details preload ad call validation Started");
 		logStep("****** amazon aax Hourly3 Details preload ad call validation Started");
 		//Utils.verifyAAX_SlotId("Smoke", "Hourly3", false);
-	}
+	}*/
 	
 	@Test(priority = 121, enabled = true)
 	@Description("Validating NextGen IM Call npa value")
@@ -353,7 +353,7 @@ public class GDPR_Run  extends  TwcAndroidBaseTest {
 
 		System.out.println(
 				"================= verifying iu value for home screen marquee test case End =========================");
-	}*/
+	}
 	
 	/*
 		 * This method validates Criteo Bidder API call for not present
