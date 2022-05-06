@@ -2384,13 +2384,13 @@ public static void gettingApkVersion() throws Exception{
 	}
 	try {
      	//cliking on aboutthisapp
-     	clickOnAboutthisapp();
-     	attachScreen();
+     	//clickOnAboutthisapp();
+     	//attachScreen();
 	}
 	catch(Exception e) {
 		//cliking on aboutthisapp
-     	clickOnAboutthisapp();
-     	attachScreen();
+     	//clickOnAboutthisapp();
+     	//attachScreen();
 	}
 	try {
      	apkVersion=Ad.findElementById("com.weather.Weather:id/about_version").getText();
