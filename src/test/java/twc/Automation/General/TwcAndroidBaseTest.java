@@ -512,4 +512,30 @@ public class TwcAndroidBaseTest extends Drivers{
 		return configFile;
 	}
 	
+	/**
+	 * Create a Charles configuration to rewrite privacy regime to the given regime (TURKEY i.e. TR-KVKK) values. 
+	 * @param fileName
+	 *            - Name of file (.config extension) to store configuration. Will be created in user.dir
+	 * @return Config Files (for deletion in After method)
+	 */
+	public File rewriteRuleToEnableTURKEY(String fileName) {
+		final List<File> configFiles = new ArrayList<File>();
+		final File parentDir = new File(Constants.PATH_USER_HOME);
+		parentDir.mkdirs();
+		final File configFile = new File(parentDir, fileName);
+		configFile.setWritable(true);
+
+		// Create Charles config with header response rewrite for twc-privacy:exempt -> twc-privacy:gdpr
+		CharlesConfiguration config = new CharlesConfiguration();
+		//config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "exempt", false, false, false, "twc-privacy", false, "gdpr", false, RewriteRuleReplaceType.ONLY_FIRST);
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-privacy", false, "tr-kvkk", false, RewriteRuleReplaceType.ONLY_FIRST);
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-geoip-country", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-geoip-country", false, "TR", false, RewriteRuleReplaceType.ONLY_FIRST);
+		config.addLocation(Protocol.HTTPS, "dsx.weather.com", "", "/cms/v5/privacy/en_US/twc-android-flagship/*", "");
+
+		config.saveConfigurations(fileName);
+
+
+		return configFile;
+	}
+	
 }
