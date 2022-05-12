@@ -1992,7 +1992,7 @@ Thread.sleep(100000);
 		
 			@Test(priority = 1925, enabled = true)
 			@Description("Amazon aax call verification when privacy optin")
-			public void Verify_Amazon_Call_privacy_optout_for_USACCPA() throws Exception {
+			public void Verify_Amazon_Call_privacy_optin_for_USACCPA() throws Exception {
 				System.out.println("==============================================");
 				System.out.println("****** amazon-adsystem.com Call test case Started when privacy optout");
 				logStep("****** amazon-adsystem.com Call test case Started when privacy optout");
