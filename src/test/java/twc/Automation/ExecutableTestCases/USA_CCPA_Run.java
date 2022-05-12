@@ -1989,6 +1989,20 @@ Thread.sleep(100000);
 		////Utils.verifyAAX_SlotId("Smoke", "Hourly", true);
 
 	}*/
+	
+		/**
+			 * This method verifies Amazon call
+			 * @throws Exception
+			 */
+			@Test(priority = 1524, enabled = true)
+			@Description("Amazon aax call verification when privacy optin")
+			public void Verify_Amazon_Call_privacy_optout_for_USACCPA() throws Exception {
+				System.out.println("==============================================");
+				System.out.println("****** amazon-adsystem.com Call test case Started when privacy optout");
+				logStep("****** amazon-adsystem.com Call test case Started when privacy optout");
+				Utils.verify_Amazon_aax_call("Smoke", "Amazon", false);
+			}
+
 
 	// Lotame Test case
 	@Test(priority = 1526, enabled = true)
