@@ -1990,10 +1990,7 @@ Thread.sleep(100000);
 
 	}*/
 	
-		/**
-			 * This method verifies Amazon call
-			 * @throws Exception
-			 */
+		
 			@Test(priority = 1524, enabled = true)
 			@Description("Amazon aax call verification when privacy optin")
 			public void Verify_Amazon_Call_privacy_optout_for_USACCPA() throws Exception {
