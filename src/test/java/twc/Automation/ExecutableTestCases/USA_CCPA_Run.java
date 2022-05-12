@@ -1918,7 +1918,7 @@ Thread.sleep(100000);
 
 	}
 
-	@Test(priority = 1516, enabled = true)
+	/*@Test(priority = 1516, enabled = true)
 	@Description("Verify amazon aax Feed3 preload ad call when privacy optin")
 	public void Verify_amazon_aax_feed3_adcall_privacy_optin_for_USACCPA() throws Exception {
 		System.out.println("==============================================");
@@ -1930,7 +1930,7 @@ Thread.sleep(100000);
 		
 		////Utils.verifyAAX_SlotId("Smoke", "Feed3", true);
 
-	}
+	}*/
 
 
 
