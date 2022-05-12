@@ -2000,7 +2000,7 @@ Thread.sleep(100000);
 				System.out.println("==============================================");
 				System.out.println("****** amazon-adsystem.com Call test case Started when privacy optout");
 				logStep("****** amazon-adsystem.com Call test case Started when privacy optout");
-				Utils.verify_Amazon_aax_call("Smoke", "Amazon", false);
+				//Utils.verify_Amazon_aax_call("Smoke", "Amazon", false);
 			}
 
 
