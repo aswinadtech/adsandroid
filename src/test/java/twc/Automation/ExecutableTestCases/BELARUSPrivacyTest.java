@@ -51,9 +51,9 @@ public class BELARUSPrivacyTest extends TwcAndroidBaseTest {
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
 		     Thread.sleep(100000);
-		AppiumFunctions.LaunchAppWithFullReset();
+		//AppiumFunctions.LaunchAppWithFullReset();
 		System.out.println("Launching the app with full reset");
-AppFunctions.resetApp();
+//AppFunctions.resetApp();
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
