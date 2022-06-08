@@ -92,7 +92,7 @@ public class LGPD_Run extends  TwcAndroidBaseTest {
 		     Thread.sleep(100000);
 		AppiumFunctions.LaunchAppWithFullReset();
 		System.out.println("Launching the app with full reset");
-		   AppFunctions.resetApp();
+		   Ad.resetApp();
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
